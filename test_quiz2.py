@@ -1,4 +1,4 @@
-# from Q15 import longest_length
+from Q15 import highest_limit
 from Q16 import long_words
 from Q17 import is_vowel
 from Q18 import pangram
@@ -6,11 +6,11 @@ from Q19 import song
 from Q20 import translate
 
 
-# def test_longest_length():
+def test_highest_limit():
 
-#     result = longest_length(["bountiess", "milka", "python"])
-#     expected = 9
-#     assert result == expected
+    result = highest_limit(["bountiess", "milka", "python"])
+    expected = 9
+    assert result == expected
 
 
 def test_long_words():
