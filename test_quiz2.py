@@ -1,9 +1,9 @@
-from Q15 import longest_length
-from Q16 import long_words
-from Q17 import is_vowel
-from Q18 import pangram
-from Q19 import song
-from Q20 import translate
+from questions.Q15 import longest_length
+from questions.Q16 import long_words
+from questions.Q17 import is_vowel
+from questions.Q18 import pangram
+from questions.Q19 import song
+from questions.Q20 import translate
 
 
 def test_longest_length():
