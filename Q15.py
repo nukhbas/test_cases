@@ -1,4 +1,4 @@
-def longestLength(lst):
+def longestlength(lst):
 
     longest = ""
     for w in lst:
@@ -9,4 +9,4 @@ def longestLength(lst):
 
 if __name__ == '__main__':
 
-    print(longestLength(['bounty', 'twister', 'milka']))
+    print(longestlength(['bounty', 'twister', 'milka']))

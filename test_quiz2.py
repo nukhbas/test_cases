@@ -1,4 +1,4 @@
-from Q15 import longestLength
+from Q15 import longestlength
 from Q16 import long_words
 from Q17 import is_vowel
 from Q18 import pangram
@@ -8,7 +8,7 @@ from Q20 import translate
 
 def test_longestLength():
 
-    result = longestLength(["bountiess", "milka", "python"])
+    result = longestlength(["bountiess", "milka", "python"])
     expected = 9
     assert result == expected
 
