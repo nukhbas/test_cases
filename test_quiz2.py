@@ -6,7 +6,7 @@ from Q19 import song
 from Q20 import translate
 
 
-def test_longestLength():
+def test_longestlength():
 
     result = longestlength(["bountiess", "milka", "python"])
     expected = 9
