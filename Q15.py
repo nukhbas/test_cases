@@ -1,7 +1,7 @@
-def longest_length(lst):
+def longest_length(ch):
 
     longest = ""
-    for w in lst:
+    for w in ch:
         if len(w) > len(longest):
             longest = w
     return len(longest)
