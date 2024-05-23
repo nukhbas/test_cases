@@ -30,7 +30,7 @@ def test_is_vowel():
 def test_pangram():
 
     result = pangram("quick fox")
-    expected = 'True'
+    expected = True
     assert result == expected
 
 

@@ -6,5 +6,4 @@ def long_words(list1, n):
 list1 = ['twister', 'candy', 'bubbly', 'galaxy']
 
 if __name__ == '__main__':
-
     print(long_words(list1, 5))

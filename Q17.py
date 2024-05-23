@@ -7,5 +7,4 @@ def is_vowel(ch):
 
 
 if __name__ == '__main__':
-
     print(is_vowel('i'))
