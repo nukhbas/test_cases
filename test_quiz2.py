@@ -1,9 +1,9 @@
-from Q15 import highest_limit
-from Q16 import long_words
-from Q17 import is_vowel
-from Q18 import pangram
-from Q19 import song
-from Q20 import translate
+from questions.test_15 import highest_limit
+from questions.test_16 import long_words
+from questions.test_17 import is_vowel
+from questions.test_18 import pangram
+from questions.test_19 import song
+from questions.test_20 import translate
 
 
 def test_highest_limit():
@@ -15,8 +15,8 @@ def test_highest_limit():
 
 def test_long_words():
 
-    result = long_words(["bountiess", "milka", "python"])
-    expected = "bountiess"
+    result = long_words(["bountiess", "milka", "python"], 7)
+    expected = ["bountiess"]
     assert result == expected
 
 
@@ -30,13 +30,13 @@ def test_is_vowel():
 def test_pangram():
 
     result = pangram("quick fox")
-    expected = True
+    expected = False
     assert result == expected
 
 
 def test_song():
 
-    result = song("99 bottles of beer on the wall, 99 bottles of beer")
+    result = song()
     expected = "Take one down, pass it around,1bottles of beer on the wall."
     assert result == expected
 
@@ -44,5 +44,5 @@ def test_song():
 def test_translate():
 
     result = translate(['Merry'])
-    expected = "god"
+    expected = ['god']
     assert result == expected
